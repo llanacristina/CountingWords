@@ -1,0 +1,13 @@
+# Arquivos temporários
+*.class
+*.jar
+
+# Arquivos de compilação TypeScript
+/dist/
+
+# Módulos Node.js
+/node_modules/
+
+# Arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db
