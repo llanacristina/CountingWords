@@ -43,5 +43,5 @@ class FileGenerator {
 }
 
 // Exemplo de uso
-const fileGenerator = new FileGenerator(4, 100, ['a', 'b', 'c'], 2, 5);
+const fileGenerator = new FileGenerator(10, 10000, ['a', 'b', 'c'], 2, 5);
 fileGenerator.generateFile();
