@@ -35,7 +35,7 @@ class FileGenerator {
 
     // Crie e escreva os arquivos
     for (let i = 0; i < this.split; i++) {
-      const fileName = path.join(__dirname, `doc_${i + 1}.txt`);
+      const fileName = path.join(__dirname, 'doc', `doc_${i + 1}.txt`);
       fs.writeFileSync(fileName, parts[i]);
       console.log(`${fileName} gerado.`);
     }
@@ -43,5 +43,5 @@ class FileGenerator {
 }
 
 // Exemplo de uso
-const fileGenerator = new FileGenerator(10, 10000, ['a', 'b', 'c'], 2, 5);
+const fileGenerator = new FileGenerator(4, 10000, ['a', 'b', 'c'], 2, 5);
 fileGenerator.generateFile();
