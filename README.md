@@ -27,4 +27,7 @@ ts-node grep.ts aaa ./doc/doc_1.txt ./doc/doc_2.txt
  ```
 
 ## 
-**OBS:** Certifique de ter todos os dados necessários instalados para compilar corretamente cada arquivos, e todos em cada diretório.
+**OBSERVAÇÃO:**
+ Certifique de ter todos os dados necessários instalados para compilar corretamente cada arquivo, e todos em cada diretório. 
+
+**Instale  `npm i` depois que baixar o arquivo para instalar as dependências.**
